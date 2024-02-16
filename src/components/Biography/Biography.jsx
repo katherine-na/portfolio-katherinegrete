@@ -1,6 +1,6 @@
 import React from "react";
 import './Biography.css'
-import MyCV from "../../assets/CV/Front-End-Dev_Katherine_Negrete.pdf";
+import MyCV from "../../assets/CV/Front-End-Dev_Katherine_Negrete";
 
 const Biography = () => {
 
