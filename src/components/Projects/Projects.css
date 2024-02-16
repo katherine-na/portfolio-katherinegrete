@@ -1,0 +1,102 @@
+#my-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 85px;
+  }
+  
+  .project-title h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #0d1d56;
+    border-color: #755d8d;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+  }
+  
+  .project-items {
+    display: flex;
+    margin-block: 50px;
+    
+  }
+  
+  .p-item {
+    margin-inline: 20px;
+    padding: 30px;
+    width: 190px;
+    height: 290px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1),
+    0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    transition: all .2s ease-in-out;
+  }
+  
+  .p-item:hover{
+    transform: scale(1.1);
+  }
+  
+  .project-image {
+    width: 190px;
+    height: 130px;
+  }
+  
+  .project-description {
+    text-align: center;
+  }
+  
+  .project-description .p-skills { 
+    margin-block: 8px;
+  }
+  
+  .project-description .p-description {
+    line-height: 18px;
+  }
+  
+  .project-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 35px;
+  }
+  
+  .project-buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 7px 10px;
+    border-radius: 30px;
+  }
+  
+  .project-buttons a:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+  }
+  
+ /* Media Query para tablet */
+ @media only screen and (min-width: 600px) and (max-width: 1024px) {
+
+ }
+
+ /* Media Query para teléfono */
+ @media only screen and (max-width: 599px) {
+  #my-projects {
+    margin-block: 15px;
+  }
+
+  .project-items {
+    flex-direction: column;
+  }
+
+  .experience-item {
+    flex-direction: column;
+  }
+
+  .p-item {
+    margin-block: 20px;
+    padding: 50px;
+  }
+
+  .project-buttons a {
+    padding: 12px;
+  }
+
+ }
