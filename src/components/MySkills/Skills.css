@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
   }
   #skills .skills-subtitle {
     display: flex;
@@ -15,7 +14,7 @@
   #skills .skills-subtitle h2 {
     font-size: 30px;
     text-transform: uppercase;
-    color: #0d1d56;
+    color: #505a7e;
     border-color: #755d8d;
     border-bottom-style: solid;
     border-bottom-width: 5px;
@@ -38,11 +37,13 @@
   
   .skill-image {
     width: 65px;
-    height: 60px;
     margin-inline: 10px;
+    object-fit: cover;
   }
   
   .item {
+    display: flex;
+    align-items: center;
     margin-inline: 10px;
   }
 

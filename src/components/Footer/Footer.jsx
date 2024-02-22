@@ -15,8 +15,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer-info">
-        <p>© Handcrafted by Katherine Negrete 2022</p>
-        <p>CDMX, México</p>
+        <p>© Handcrafted by Katherine Negrete 2024, CDMX México</p>
       </div>
     </section>
   );

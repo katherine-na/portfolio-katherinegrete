@@ -8,7 +8,7 @@
   .project-title h1 {
     font-size: 30px;
     text-transform: uppercase;
-    color: #0d1d56;
+    color: #505a7e;
     border-color: #755d8d;
     border-bottom-style: solid;
     border-bottom-width: 5px;
@@ -28,6 +28,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1),
     0 6px 20px 0 rgba(0, 0, 0, 0.1);
     transition: all .2s ease-in-out;
+    border-radius: 15px;
   }
   
   .p-item:hover{
@@ -59,16 +60,19 @@
   
   .project-buttons a {
     text-decoration: none;
-    color: white;
-    background-color: black;
+    color: black;
     padding: 7px 10px;
     border-radius: 30px;
+    border: 1px solid #C193C5;
+    box-shadow: 5px 6px 0px rgba(244, 190, 250, 0.333);
+
+
   }
   
   .project-buttons a:hover {
-    background-color: white;
-    border: 1px solid black;
-    color: black;
+    border: 1px solid rgb(217, 93, 245);
+    box-shadow: 7px 8px 0px rgba(244, 190, 250, 0.333);
+
   }
   
  /* Media Query para tablet */

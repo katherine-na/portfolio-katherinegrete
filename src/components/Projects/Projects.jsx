@@ -1,9 +1,8 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import './Projects.css';
-import sunshineProject from '../../assets/projects/sunshine.png';
-import thingsToDo from '../../assets/projects/thingstodo.png';
 import bookstore from '../../assets/projects/bookstore.png';
+import sunshine from '../../assets/projects/sunshinee.png'
 
 const Projects = () => {
   return (
@@ -14,7 +13,7 @@ const Projects = () => {
       <div className="project-items">
         <div className="p-item">
           <ProjectItem
-            image={sunshineProject}
+            image={sunshine}
             name="Swimmwear Store"
             skills="HTML5, SASS, Javascript"
             description="Swimwear online shop with products displayed using images"
@@ -24,7 +23,7 @@ const Projects = () => {
         </div>
         <div className="p-item">
           <ProjectItem
-            image={thingsToDo}
+            image=""
             name="Things to do"
             skills="React, Tailwind"
             description="An application to write down the things you have pending to do"

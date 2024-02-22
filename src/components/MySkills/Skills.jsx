@@ -10,6 +10,8 @@ import SassImage from '../../assets/skills/sass.svg.png';
 import VtexImage from '../../assets/skills/vtex.png';
 import VscodeImage from '../../assets/skills/vscode.svg.png';
 import AWSImage from '../../assets/skills/aws.png';
+import git from '../../assets/skills/gitlogo.png';
+import typescript from '../../assets/skills/typescript.png'
 
 const skillsImage = [
   HTML5Badge,
@@ -23,6 +25,8 @@ const skillsImage = [
   VtexImage,
   VscodeImage,
   AWSImage,
+  git,
+  typescript
 ];
 
 const Skills = () => {

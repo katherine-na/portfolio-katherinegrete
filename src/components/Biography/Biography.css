@@ -1,5 +1,4 @@
-
-#biography{
+  #biography{
     display: flex;
     justify-content: space-between;
     margin: 150px 50px 110px;
@@ -16,7 +15,6 @@
     font-size: 30px;
     color: #505a7e;
     border-color: #755d8d;
-  
     border-bottom-style: solid;
     width: 230px;
     border-bottom-width: 4px;
@@ -24,7 +22,11 @@
   #biography h1 {
     font-size: 80px;
     margin: 0;
-    color: #0d1d56;
+     background: linear-gradient(to bottom, #C193C5, #7BC6CC);
+    -webkit-background-clip: text; /* Para navegadores basados en WebKit */
+    background-clip: text;
+    color: transparent; /
+
   }
   #biography p {
     font-size: 20px;
@@ -34,18 +36,22 @@
   }
   #biography .dowloand-cv {
     text-decoration: none;
+    font-size: 16px;
     text-align: center;
-    color: white;
-    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    padding: 17px;
     width: 180px;
     border-radius: 30px;
-    background: #7794ff;
+    background: #7BC6CC;
     cursor: pointer;
+    box-shadow: 5px 6px 0px rgb(129 186 240 / 30%);
+
   }
   #biography .dowloand-cv:hover {
     -webkit-animation: bounce 1s;
             animation: bounce 1s;
-    background: #93aafc;
+    background: #87cacf;
   }
   
 /* Media Query para teléfono */

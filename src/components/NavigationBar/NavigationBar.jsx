@@ -7,31 +7,28 @@ import linkeding from "../../assets/socialMedia/linkeding.jpeg";
 const NavigationBar = () => {
   return (
     <section id="NavigationBar">
-      <li className="navbar">
-        <ul>Contact Me:</ul>
-        <ul className="navbar-social">
+      <div className="navigation-bar-wrapper">
+        <div className="navigation-bar-btns">
+          <img className="navigation-bar-btn" src={linkeding} alt="" />
           <a
             href="https://www.linkedin.com/in/katherine-negrete-07b65b240/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              className="footer-image"
-              src={linkeding}
-              alt="logo-linkeding"
-            />
+            Linkedin
           </a>
-        </ul>
-        <ul className="navbar-social">
-          <a href="https://github.com/katherine-na" target="_blank" rel="noopener noreferrer">
-            <img
-              className="footer-image"
-              src={github}
-              alt="logo-github"
-            />
+        </div>
+        <div className="navigation-bar-btns">
+          <img className="navigation-bar-btn" src={github} alt="" />
+          <a
+            href="https://github.com/katherine-na"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
           </a>
-        </ul>
-      </li>
+        </div>
+      </div>
       <div className="navbar-banner-mobile">
         <img className="mobile-photo" src={myPhoto} alt="" />
       </div>

@@ -13,7 +13,7 @@ const Biography = () => {
           Developer
         </h1>
         <p>
-          Hi there! I'm a UI Front End Developer, I enjoy building websites.
+        I enjoy building websites! With over 1 year of experience
         </p>
         <a href={MyCV} className="dowloand-cv" download="Front-End-Dev-Katherine-Negrete.pdf">
           Dowloand CV

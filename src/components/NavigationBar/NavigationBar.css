@@ -1,8 +1,37 @@
-.navbar {
+#NavigationBar {
+    margin: 20px 50px 0px 0px;
+}
+
+.navigation-bar-wrapper {
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
+}
+
+.navigation-bar-btns {
+    display: flex;
     align-items: center;
-    margin: 20px 50px;
+    border: 1px solid #C193C5;
+    padding: 9px;
+    border-radius: 20px;
+    margin-inline: 5px;
+    box-shadow: 5px 6px 0px rgba(244, 190, 250, 0.333);
+}
+
+.navigation-bar-btns:hover {
+    box-shadow: 7px 8px 0px rgba(244, 190, 250, 0.333);
+}
+
+.navigation-bar-btns a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation-bar-btns img {
+    margin-right: 5px;
+}
+
+.navigation-bar-btn {
+    width: 20px;
 }
 
 .navbar-social {
