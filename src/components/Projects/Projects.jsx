@@ -3,6 +3,7 @@ import ProjectItem from "./ProjectItem";
 import './Projects.css';
 import bookstore from '../../assets/projects/bookstore.png';
 import sunshine from '../../assets/projects/sunshinee.png'
+import listify from '../../assets/projects/listify1.png'
 
 const Projects = () => {
   return (
@@ -23,7 +24,7 @@ const Projects = () => {
         </div>
         <div className="p-item">
           <ProjectItem
-            image=""
+            image={listify}
             name="Things to do"
             skills="React, Tailwind"
             description="An application to write down the things you have pending to do"

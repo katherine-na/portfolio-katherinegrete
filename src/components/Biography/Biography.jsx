@@ -1,9 +1,8 @@
 import React from "react";
-import './Biography.css'
+import "./Biography.css";
 import MyCV from "../../assets/CV/Front-End-Dev-Katherine-Negrete.pdf";
 
 const Biography = () => {
-
   return (
     <section id="biography">
       <div className="biography-intro-text">
@@ -13,14 +12,20 @@ const Biography = () => {
           Developer
         </h1>
         <p>
-        I enjoy building websites! With over 1 year of experience
+          With over 1 year of experience in user interface and web application
+          development, I am committed to creating impactful and functional
+          digital experiences!
         </p>
-        <a href={MyCV} className="dowloand-cv" download="Front-End-Dev-Katherine-Negrete.pdf">
+        <a
+          href={MyCV}
+          className="dowloand-cv"
+          download="Front-End-Dev-Katherine-Negrete.pdf"
+        >
           Dowloand CV
         </a>
       </div>
       <div>
-        <img src='' alt="" />
+        <img src="" alt="" />
       </div>
     </section>
   );

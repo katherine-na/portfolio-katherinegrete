@@ -9,7 +9,7 @@ const SkillsSection = () => {
           <h2>My skills</h2>
           <p>
             I took online courses in various education platforms where I studied
-            front end technologies. I did projects using my skills!
+            front end technologies
           </p>
         </div>
         <div className="skills-items">

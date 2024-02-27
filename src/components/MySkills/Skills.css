@@ -3,7 +3,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+    background: #c7c4c41f;
+    padding-top: 50px;
+}
+    
   #skills .skills-subtitle {
     display: flex;
     align-items: center;
@@ -45,6 +48,7 @@
     display: flex;
     align-items: center;
     margin-inline: 10px;
+    flex-wrap: wrap;
   }
 
 /* Media Query para teléfono */

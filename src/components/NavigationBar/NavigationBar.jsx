@@ -7,6 +7,9 @@ import linkeding from "../../assets/socialMedia/linkeding.jpeg";
 const NavigationBar = () => {
   return (
     <section id="NavigationBar">
+      <div className="navbar-banner-mobile">
+        <img className="mobile-photo" src={myPhoto} alt="" />
+      </div>
       <div className="navigation-bar-wrapper">
         <div className="navigation-bar-btns">
           <img className="navigation-bar-btn" src={linkeding} alt="" />
@@ -28,9 +31,6 @@ const NavigationBar = () => {
             Github
           </a>
         </div>
-      </div>
-      <div className="navbar-banner-mobile">
-        <img className="mobile-photo" src={myPhoto} alt="" />
       </div>
     </section>
   );

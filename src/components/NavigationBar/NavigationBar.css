@@ -45,6 +45,12 @@
 
 /* Media Query para teléfono */
 @media only screen and (max-width: 599px) {
+    #NavigationBar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
     .navbar {
         display: none;
     }
