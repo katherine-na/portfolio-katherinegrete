@@ -13,6 +13,7 @@ import AWSImage from '../../assets/skills/aws.png';
 import git from '../../assets/skills/gitlogo.png';
 import typescript from '../../assets/skills/typescript.png'
 import next from '../../assets/skills/next.png'
+import contentful from  '../../assets/skills/contentful.png'
 
 const skillsImage = [
   HTML5Badge,
@@ -29,6 +30,7 @@ const skillsImage = [
   VscodeImage,
   AWSImage,
   git,
+  contentful,
 ];
 
 const Skills = () => {

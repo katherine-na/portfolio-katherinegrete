@@ -17,7 +17,7 @@ const ExperienceItem = () => {
           company={geniallabs}
           companyLink="https://genial-labs.com/"
           companyName="Genial Labs LLC"
-          companyDate="July 2020 - March 2022 (8 months)"
+          companyDate="Jul 2020 - Apr 2022 (1 year 8 months)"
           stack="Stack: WordPress, Microsoft Office, MacOS, Google Apps, Terminal, Figma, Bash, VSCODE, Slack"
           companyStasks="Help with editing image files"
           companyStasks1="Documentation Labeling data"
@@ -29,7 +29,7 @@ const ExperienceItem = () => {
           company={knowledgize}
           companyLink="https://www.knowledgize.com/en"
           companyName="Knowledgize"
-          companyDate="May 2022 - Oct 2022 (5 months)"
+          companyDate="May 2022 - Oct 2022 (6 months)"
           stack="Stack: Git, GitHub, Bash, Linux, MacOS, HTML5, CSS3, Vue.js"
           companyStasks="Update & improve the appearance of Knowledgise web app"
           companyStasks1="Ensure the accurate translation of information & documentation"
@@ -41,7 +41,7 @@ const ExperienceItem = () => {
           company={vinneren}
           companyLink="https://www.vinneren.com.mx/"
           companyName="Vinneren eCommerce"
-          companyDate="Oct 2022 - Current (1 year 4 months)"
+          companyDate="Oct 2022 - Mar 2024 (1 year 6 months)"
           stack="Stack: VTEX, React.js, Sass, Bitbucket, Jira, Telegram, Slack"
           companyStasks="Front End Developer at Elektra (an outstanding Vinneren client)"
           companyStasks1="User Interface (UI) Development"

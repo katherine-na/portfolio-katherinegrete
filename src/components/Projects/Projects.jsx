@@ -3,13 +3,13 @@ import ProjectItem from "./ProjectItem";
 import './Projects.css';
 import bookstore from '../../assets/projects/bookstore.png';
 import sunshine from '../../assets/projects/sunshinee.png'
-import listify from '../../assets/projects/listify1.png'
+import daily from '../../assets/projects/daily.png'
 
 const Projects = () => {
   return (
     <section id="my-projects">
       <div className="project-title">
-        <h1>My Projectsss</h1>
+        <h1>My Projects</h1>
       </div>
       <div className="project-items">
         <div className="p-item">
@@ -24,7 +24,7 @@ const Projects = () => {
         </div>
         <div className="p-item">
           <ProjectItem
-            image={listify}
+            image={daily}
             name="Things to do"
             skills="React, Tailwind"
             description="An application to write down the things you have pending to do"

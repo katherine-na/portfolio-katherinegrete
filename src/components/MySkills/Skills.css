@@ -55,6 +55,8 @@
 @media only screen and (max-width: 599px) {
   .skill-image {
     margin: 15px;
-
+  }
+  .skills-subtitle {
+    width: 100% !important;
   }
  }
