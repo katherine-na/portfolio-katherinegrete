@@ -70,7 +70,9 @@
 /* Media Query para teléfono */
 @media only screen and (max-width: 599px) {
   #my-experience {
-    margin: 45px 50px;
+    padding: 2rem;
+    margin: 0;
+
   }
 
   .experience-section {

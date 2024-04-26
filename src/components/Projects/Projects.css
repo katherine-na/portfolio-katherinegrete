@@ -84,10 +84,13 @@
  @media only screen and (max-width: 599px) {
   #my-projects {
     margin-block: 15px;
+    padding: 2rem;
   }
 
   .project-items {
     flex-direction: column;
+    align-items: center;
+
   }
 
   .experience-item {

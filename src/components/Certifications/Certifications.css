@@ -76,3 +76,13 @@
     align-items: center;
     justify-content: center;
 }
+
+@media only screen and (max-width: 599px) {
+    #my-certifications {
+        padding: 2rem;
+    }
+
+    .cert-container {
+        justify-content: center;
+    }
+}
