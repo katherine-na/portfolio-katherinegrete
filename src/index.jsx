@@ -8,6 +8,7 @@ import ExperienceItem from "./components/Experience/ExperienceItem";
 import Footer from "./components/Footer/Footer";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import Education from "./components/Education/Education";
+import Certifications from "./components/Certifications/Certifications";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -17,7 +18,8 @@ root.render(
     <SkillsSection/>
     <Projects/>
     <ExperienceItem/>
-    <Education />
+    {/* <Education /> */}
+    <Certifications />
     <Footer/>
   </>
 );

@@ -1,7 +1,7 @@
   #biography{
     display: flex;
     justify-content: space-between;
-    margin: 150px 50px 110px;
+    padding: 3rem 12rem;
   }
   
   .biography-intro-text{

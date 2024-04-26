@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     background: #c7c4c41f;
-    padding-top: 50px;
+    padding: 3rem 12rem;
 }
     
   #skills .skills-subtitle {
@@ -32,7 +32,7 @@
   }
   
   .skills-items {
-    margin: 50px;
+    margin-top: 10px;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -40,15 +40,15 @@
   
   .skill-image {
     width: 65px;
-    margin-inline: 10px;
+    margin: 20px;
     object-fit: cover;
   }
   
   .item {
     display: flex;
     align-items: center;
-    margin-inline: 10px;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
 /* Media Query para teléfono */
