@@ -60,7 +60,13 @@
   .skill-image {
     margin: 15px;
   }
+
   .skills-subtitle {
     width: 100% !important;
   }
+
+  #skills .skills-subtitle p {
+    font-size: 16px;
+  }
+  
  }
