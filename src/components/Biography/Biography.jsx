@@ -1,6 +1,7 @@
 import React from "react";
 import "./Biography.css";
 import MyCV from "../../assets/CV/Front-End-Dev-Katherine-Negrete.pdf";
+import MyPhoto from "../../assets/biography/kathy.jpeg"
 
 const Biography = () => {
   return (
@@ -25,7 +26,7 @@ const Biography = () => {
         </a>
       </div>
       <div>
-        <img src="" alt="" />
+        <img className="photoBanner" src={MyPhoto} alt="" />
       </div>
     </section>
   );

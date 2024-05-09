@@ -53,6 +53,12 @@
             animation: bounce 1s;
     background: #87cacf;
   }
+  .photoBanner {
+    width: 400px;
+    border-radius: 50%;
+    height: 400px;
+    object-fit: cover;
+  }
   
 /* Media Query para teléfono */
 @media only screen and (max-width: 599px) {
@@ -80,8 +86,7 @@
     font-size: 16px;
   }
 
-  .banner {
+  .photoBanner {
     display: none;
   }
-
  }

@@ -8,7 +8,7 @@ const NavigationBar = () => {
   return (
     <section id="NavigationBar">
       <div className="navbar-banner-mobile">
-        {/* <img className="mobile-photo" src={myPhoto} alt="" /> */}
+        <img className="mobile-photo" src={myPhoto} alt="" />
       </div>
       <div className="navigation-bar-wrapper">
         <div className="navigation-bar-btns">
