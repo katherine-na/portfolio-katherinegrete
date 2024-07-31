@@ -3,7 +3,7 @@ import ProjectItem from "./ProjectItem";
 import './Projects.css';
 import bookstore from '../../assets/projects/bookstore.png';
 import sunshine from '../../assets/projects/sunshinee.png'
-import daily from '../../assets/projects/daily.png'
+import planning from '../../assets/projects/planning.png'
 
 const Projects = () => {
   return (
@@ -24,12 +24,12 @@ const Projects = () => {
         </div>
         <div className="p-item">
           <ProjectItem
-            image={daily}
-            name="Things to do"
-            skills="React, Tailwind"
+            image={planning}
+            name="Daily Planning"
+            skills="React, Next, Tailwind"
             description="An application to write down the things you have pending to do"
-            demo="https://knathingstodo.netlify.app/"
-            repo="https://github.com/katherine-na/daily"
+            demo="https://daily-planning-kna.netlify.app/"
+            repo="https://github.com/katherine-na/DailyPlanning"
           />
         </div>
         <div className="p-item">
