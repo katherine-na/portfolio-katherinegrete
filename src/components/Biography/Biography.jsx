@@ -1,7 +1,7 @@
 import React from "react";
 import "./Biography.css";
-import MyCV from "../../assets/CV/Front-End-Dev-Katherine-Negrete.pdf";
-import MyPhoto from "../../assets/biography/kathy.jpeg"
+import MyCV from "../../assets/CV/Front-End-Developer_Katherine_Negrete_EN.pdf";
+import MyPhoto from "../../assets/biography/kathy.jpeg";
 
 const Biography = () => {
   return (
@@ -13,9 +13,9 @@ const Biography = () => {
           Developer
         </h1>
         <p>
-          With over 1 year of experience in user interface and web application
-          development, I am committed to creating impactful and functional
-          digital experiences!
+          With over 2 years of experience in front-end development, I am
+          committed to building intuitive and visually compelling user
+          interfaces!
         </p>
         <a
           href={MyCV}
