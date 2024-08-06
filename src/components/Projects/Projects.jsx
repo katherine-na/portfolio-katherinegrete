@@ -2,7 +2,7 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import './Projects.css';
 import bookstore from '../../assets/projects/bookstore.png';
-import sunshine from '../../assets/projects/sunshinee.png'
+import sunshine from '../../assets/projects/sunshine.png'
 import planning from '../../assets/projects/planning.png'
 
 const Projects = () => {
@@ -16,10 +16,10 @@ const Projects = () => {
           <ProjectItem
             image={sunshine}
             name="Swimmwear Store"
-            skills="HTML5, SASS, Javascript"
+            skills="ReactJs, NextJs, Sass"
             description="Swimwear online shop with products displayed using images"
-            demo="https://katherine-na.github.io/swimsuit-shop-project/marked/index.html"
-            repo="https://github.com/katherine-na/swimsuit-shop-project"
+            demo="https://swimmwear-kna.netlify.app/"
+            repo="https://github.com/katherine-na/swimmwear"
           />
         </div>
         <div className="p-item">
@@ -36,7 +36,7 @@ const Projects = () => {
           <ProjectItem
             image={bookstore}
             name="Book Store"
-            skills="Bootstrap"
+            skills="Bootstrap, HTML5"
             description="Awesome book gallery with insightful reviews about it"
             demo="https://katherine-na.github.io/gallery-project/"
             repo="https://github.com/katherine-na/gallery-project"

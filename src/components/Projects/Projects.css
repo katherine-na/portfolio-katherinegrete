@@ -38,6 +38,7 @@
   .project-image {
     width: 190px;
     height: 130px;
+    object-fit: cover;
   }
   
   .project-description {
