@@ -17,13 +17,13 @@ const Biography = () => {
           committed to building intuitive and visually compelling user
           interfaces!
         </p>
-        <a
+        {/* <a
           href={MyCV}
           className="dowloand-cv"
           download="Front-End-Dev-Katherine-Negrete.pdf"
         >
           Dowloand CV
-        </a>
+        </a> */}
       </div>
       <div>
         <img className="photoBanner" src={MyPhoto} alt="" />
